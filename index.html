@@ -1,0 +1,6 @@
+<script>
+const urlParams = new URLSearchParams(window.location.search);
+const myParam = urlParams.get('code');
+window.location.href = "fedi-pipe://oauth?code=" + myParam;
+
+</script>
